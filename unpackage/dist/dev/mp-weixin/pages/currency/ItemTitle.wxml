@@ -1,0 +1,1 @@
+<view class="d-flex p-2 a-center" style="height:50rpx;"><view class="rounded" style="width:10rpx;height:100%;background-color:#588DCF;"></view><text class="font-xd font-weight ml-2">{{titletext}}</text><text class="font ml-auto text-light-muted">更多<text class="iconfont icon-you"></text></text></view>

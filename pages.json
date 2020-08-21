@@ -1,0 +1,114 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"titleNView": {
+						"type":"float",
+						"scrollIndicator":"none",
+						"backgroundColor":"rgba(255,255,255,0)",
+						"searchInput": {
+							"align":"center",
+							"disabled":"true",
+							"borderRadius":"15px",
+							"placeholder":"搜索应用、服务",
+							"placeholderColor":"#B7B3B2"
+						},
+						"buttons": [
+							{
+								"color": "#989898",
+								"colorPressed": "#FD6801",
+								"float": "left",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue67a"
+							},
+							{
+								"color": "#989898",
+								"colorPressed": "#FD6801",
+								"float": "right",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue661"
+							}
+						]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"智慧新闻"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/msg/msg",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"智慧生活"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"个人中心"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/bus/bus",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智慧生活",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#FD6801",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/img/tabbar/index.png",
+				"selectedIconPath":"static/img/tabbar/indexSelected.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"新闻",
+				"iconPath":"static/img/tabbar/class.png",
+				"selectedIconPath":"static/img/tabbar/classSelected.png"
+			},
+			{
+				"pagePath":"pages/msg/msg",
+				"text":"生活",
+				"iconPath":"static/img/tabbar/cart.png",
+				"selectedIconPath":"static/img/tabbar/cartSelected.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/img/tabbar/my.png",
+				"selectedIconPath":"static/img/tabbar/mySelected.png"
+			}
+		]
+		
+	}
+}

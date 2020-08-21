@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tab-slider": "/pages/currency/TabSlider",
+    "item-title": "/pages/currency/ItemTitle",
+    "bb-news": "/pages/currency/BbNews"
+  }
+}

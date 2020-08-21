@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "swiper-img": "/pages/currency/SwiperImg",
+    "index-nav": "/pages/currency/IndexNav",
+    "news-list": "/pages/currency/NewsList",
+    "through-line": "/pages/currency/ThroughLine",
+    "item-title": "/pages/currency/ItemTitle",
+    "common-content": "/pages/currency/CommonContent"
+  }
+}

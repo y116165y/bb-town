@@ -1,0 +1,8 @@
+
+.border-red{
+	border-bottom: 6rpx solid #FD6801;
+}
+.scroll-xy {
+	overflow-x: scroll;
+}
+

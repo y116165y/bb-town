@@ -1,0 +1,13 @@
+
+.blue.data-v-10738874 {
+	color: #588DCF;
+}
+.pink.data-v-10738874 {
+	color: #F58291;
+}
+.scroll-content.data-v-10738874 {
+	position: relative;
+	-webkit-transition: top 0.5s;
+	transition: top 0.5s;
+}
+

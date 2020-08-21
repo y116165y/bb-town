@@ -1,0 +1,89 @@
+
+._div.data-v-c454de34,
+scroll-view.data-v-c454de34,
+swiper.data-v-c454de34 {
+    box-sizing: border-box;
+}
+._div.data-v-c454de34 {
+  font-size: 28rpx;
+  background-color: #f1f1f1;
+}
+.swiper.data-v-c454de34 {
+    height: 100vh;
+}
+.cu-bar.data-v-c454de34 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    min-height: 100rpx;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.cu-bar .action.data-v-c454de34 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    max-width: 100%;
+  background-color: #ffffff;
+}
+.cu-bar .action.data-v-c454de34:first-child {
+    margin-left: 30rpx;
+    font-size: 30rpx;
+}
+.solid.data-v-c454de34,
+.solid-bottom.data-v-c454de34 {
+    position: relative;
+}
+.solid.data-v-c454de34::after,
+.solid-bottom.data-v-c454de34::after{
+    content: " ";
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+.solid.data-v-c454de34::after {
+    border: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+.solid-bottom.data-v-c454de34::after {
+    border-bottom: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+.text-orange.data-v-c454de34{
+  color:#f37b1d
+}
+.text-black.data-v-c454de34{
+  color:#333333;
+}
+.bg-white.data-v-c454de34{
+    background-color: #ffffff;
+}
+.padding.data-v-c454de34 {
+    padding: 2rpx;
+}
+.margin-top.data-v-c454de34 {
+    margin-top: 33rpx;
+}
+.text-center.data-v-c454de34 {
+    text-align: center;
+}
+

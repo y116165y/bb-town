@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "through-line": "/pages/currency/ThroughLine",
+    "ul-list": "/pages/currency/UlList",
+    "common-pop": "/pages/currency/CommonPop"
+  }
+}
